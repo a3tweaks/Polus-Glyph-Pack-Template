@@ -17,4 +17,6 @@ Usage
 Your Glyph Pack's bundle needs to be placed in /Library/Polus/Glyph Packs in order for Polus to recognise it and use it acccordingly and be sure to modify both the *.bundle name and the contents of the Info plist file to suit your uses.
 Both the Bundle Display Name and Bundle Identifier are used throughout Polus and presented to the user so ensure that these are properly set.
 
+In addition, try to ensure that the bundle identifier matches the identifier used in cydia so that we can accurately indicate wether your pack is installed should it be added to the Featured section within Polus.
+
 Also, please add a dependancy for com.a3tweaks.polus in your packages control file to ensure that the Glyph Pack makes sure that the official version of Polus is installed.
